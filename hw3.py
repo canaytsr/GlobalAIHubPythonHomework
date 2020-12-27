@@ -54,7 +54,7 @@ user_name=input("Enter your name:")
 print("Welcome "+user_name+" Let's start the game!")
 
 name_list=["brad","gray","cate","viola","mary" ,"william","olivia"]
-color_list=["orange","green","violet","black","yellow","yellow","brown"]
+color_list=["orange","green","violet","black","yellow","pink","brown"]
 
 print("1-Name")
 print("2-Color")
@@ -105,7 +105,6 @@ while false<6 and true<len(select_word):
         print(' '.join(mylist),end='\n')
         
         
-   
 print("")  
 if true>=len(select_word):
     print("---YOU WİN-----")
