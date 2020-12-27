@@ -6,13 +6,13 @@ Courses_list=["English","Math" ,"Chemistry" ,"Biology", "Physics"]
 
 def PassOrFail(m,f,p):
     ort=(m*30/100)+(f*50/100)+(p*20/100)
-    if ort>90:
+    if ort>=90:
         return "AA"
-    elif ort<90 and ort>70:
+    elif ort<90 and ort>=70:
         return "BB"
-    elif ort<70 and ort>50:
+    elif ort<70 and ort>=50:
         return "CC"
-    elif ort<50 and ort>30:
+    elif ort<50 and ort>=30:
         return "DD"
     else:
         return "FF"
