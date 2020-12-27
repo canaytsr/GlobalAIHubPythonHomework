@@ -83,8 +83,9 @@ while t in range(len(mylist)):
 print("")
 false=0
 r=0
+true=0
 print(figure[0])
-while false<6:
+while false<6 and true<len(select_word):
     
     tahmin=input("Enter a letter:")
     if tahmin not in select_word:
@@ -95,6 +96,7 @@ while false<6:
         
         print(' {} tane tahmin hakkiniz kaldi.'.format(6-false))
     else:
+        true+=1
         for i in range(len(select_word)):
             
             if tahmin==select_word[i]:
@@ -102,8 +104,14 @@ while false<6:
                 mylist[i]=tahmin
         print(' '.join(mylist),end='\n')
         
+        
    
-   
-print("")        
-print("---GAME OVER-----")
-    
+print("")  
+if true>=len(select_word):
+    print("---YOU WİN-----")
+
+elif false>=6:
+    print("---GAME OVER-----")
+
+
+
