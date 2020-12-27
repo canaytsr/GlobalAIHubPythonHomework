@@ -1,5 +1,5 @@
 a = input("Enter 1st input: ")
-b = input("Enter 2nd input")
+b = input("Enter 2nd input: ")
 c = input("Enter 3rd input: ")
 d = input("Enter 4st input: ")
 e = input("Enter 5st input: ")
